@@ -1,0 +1,13 @@
+# 如果只是普通，命名：application.yml；如果是用到nacos之类的，命名：bootstrap.yml
+spring:
+  # 环境 dev|test|pro
+  profiles:
+    active: local
+
+  application:
+    name: spring-transaction-service
+
+
+
+
+
