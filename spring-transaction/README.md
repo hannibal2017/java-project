@@ -15,6 +15,7 @@
         return "yes";
         }
    ```
+    访问：http://localhost:8080/api/user/insert
     能正常入库:
 ![img.png](picture/img.png)
 ## REQUIRED，如果只是@Transactional，事务传播类型默认是REQUIRED
@@ -177,3 +178,9 @@
         }
    ```
       
+# 项目提交到GitHub
+ ```
+ ssh:  
+ git remote set-url origin git@github.com:hannibal2017/java-project.git  
+ git push -u origin main
+ ```
