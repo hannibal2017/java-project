@@ -24,7 +24,7 @@ public class UserDoServiceAImpl extends ServiceImpl<UserDoMapper, UserDo> implem
     private UserDoServiceB userDoServiceB;
 
     @Override
-    @Transactional
+//    @Transactional
     public String insertA() {
         UserDo userDo = new UserDo();
         userDo.setName("A");
@@ -33,11 +33,7 @@ public class UserDoServiceAImpl extends ServiceImpl<UserDoMapper, UserDo> implem
 
         log.info("UserDoServiceB");
 
-        try {
-            userDoServiceB.insertB();
-        } catch (Exception e) {
-            log.error("error:{}", e.getMessage());
-        }
+        userDoServiceB.insertB();
         return "yes";
     }
 }

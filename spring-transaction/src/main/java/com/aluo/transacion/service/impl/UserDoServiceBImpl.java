@@ -18,7 +18,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Service
 public class UserDoServiceBImpl extends ServiceImpl<UserDoMapper,UserDo> implements UserDoServiceB {
     @Override
-    @Transactional(propagation = Propagation.NESTED)
+    @Transactional(propagation = Propagation.MANDATORY)
     public String insertB() {
         UserDo userDoB = new UserDo();
         userDoB.setName("B");

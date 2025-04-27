@@ -25,10 +25,13 @@
     <spring-cloud-alibaba.version>2022.0.0.0-RC2</spring-cloud-alibaba.version>
     <redisson.version>3.27.0</redisson.version>
     <mybatis-plus.version>3.5.5</mybatis-plus.version>
+    <fastjson.version>1.2.55</fastjson.version>
+    <google.guava.version>18.0</google.guava.version>
   </properties>
 
   <modules>
     <module>spring-transaction</module>
+    <module>pratice</module>
   </modules>
 
   <dependencyManagement>
@@ -47,6 +50,19 @@
         <groupId>com.baomidou</groupId>
         <artifactId>mybatis-plus-core</artifactId>
         <version>${mybatis-plus.version}</version>
+      </dependency>
+      <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+      <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>fastjson</artifactId>
+        <version>${fastjson.version}</version>
+      </dependency>
+
+      <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+      <dependency>
+        <groupId>com.google.guava</groupId>
+        <artifactId>guava</artifactId>
+        <version>${google.guava.version}</version>
       </dependency>
     </dependencies>
 

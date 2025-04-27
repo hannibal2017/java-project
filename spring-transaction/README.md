@@ -177,7 +177,23 @@
         return "yes";
         }
    ```
-      
+  * 方法B的代码  
+   ```java
+    @Transactional(propagation = Propagation.NESTED)
+    public String insertB() {
+        UserDo userDoB = new UserDo();
+        userDoB.setName("B");
+        userDoB.insert();
+        int a = 2 / 0;
+        return "yes";
+        }
+   ```
+ ## MANDATORY 必须存在事务，否则抛异常
+ #### 方法A没有事务，方法B传播机制是MANDATORY
+  * 日志  
+   ```java
+    Request processing failed: org.springframework.transaction.IllegalTransactionStateException: No existing transaction found for transaction marked with propagation 'mandatory'
+   ```
 # 项目提交到GitHub
  ```
  ssh:  

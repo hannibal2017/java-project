@@ -1,0 +1,20 @@
+package com.example.demo.designPattern.chainOfResponsibility;
+
+/**
+ * @author edz
+ * @version V1.0
+ * @Package com.example.demo.designPattern.chainOfResponsibility
+ * @date 2022-10-10 21:09
+ */
+public class ConsoleLogger extends AbstractLogger {
+
+
+    public ConsoleLogger(int level) {
+        super(level);
+    }
+
+    @Override
+    protected void write(String message) {
+        System.out.println("Standard Console::Logger: " + message);
+    }
+}
