@@ -1,4 +1,4 @@
-package com.luo.rabbit.controller;
+package com.aluo.rabbit.controller;
 
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;

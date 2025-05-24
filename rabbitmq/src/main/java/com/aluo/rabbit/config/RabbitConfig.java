@@ -1,4 +1,4 @@
-package com.luo.rabbit.config;
+package com.aluo.rabbit.config;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.beans.factory.annotation.Configurable;

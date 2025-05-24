@@ -35,6 +35,8 @@
     <module>spring-transaction</module>
     <module>pratice</module>
     <module>rabbitmq</module>
+      <module>rabbitMqProducer</module>
+      <module>rabbitMqConsumer</module>
   </modules>
 
   <dependencyManagement>
@@ -86,6 +88,13 @@
         <groupId>io.netty</groupId>
         <artifactId>netty-all</artifactId>
         <version>${netty.version}</version>
+      </dependency>
+
+      <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+      <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>fastjson</artifactId>
+        <version>${fastjson.version}</version>
       </dependency>
 
     </dependencies>

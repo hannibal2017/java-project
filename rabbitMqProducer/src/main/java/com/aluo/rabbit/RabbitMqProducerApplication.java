@@ -1,4 +1,4 @@
-package com.luo.rabbit;
+package com.aluo.rabbit;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,9 +10,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @date 2025/5/23 20:55
  */
 @SpringBootApplication
-public class RabbitMqApplicationnn {
+public class RabbitMqProducerApplication {
     public static void main(String[] args) {
-        SpringApplication.run(RabbitMqApplicationnn.class, args);
+        SpringApplication.run(RabbitMqProducerApplication.class, args);
     }
 
 }
