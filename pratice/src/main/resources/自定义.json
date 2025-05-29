@@ -1,0 +1,74 @@
+{
+  "id": 25,
+  "name": "京东金融",
+  "imgUrl": "https://meixin-test2.oss-cn-beijing.aliyuncs.com/img/20250306/5DD3596C083744E5ADF36D87778AB0A4.jpeg",
+  "creditAmount": 20000,
+  "minLoanRate": 1,
+  "maxLoanRate": 3,
+  "timeLimitLoanRate": 1,
+  "loanPeriodStart": 1,
+  "loanPeriodEnd": 12,
+  "minAmount": 20000,
+  "maxAmount": 1000000,
+  "tagNameList": [
+    "最新",
+    "最热",
+    "期限长"
+  ],
+  "number": 10000,
+  "linkUrl": "http://tsjyh-app.jiqiongbao.com/registerlp.html?source=subei&tid=1",
+  "area": [
+    1,
+    64
+  ],
+  "provinceId": 1,
+  "cityId": 64,
+  "limitProvinceCityIdsList": [],
+  "loanWeeks": [],
+  "settlementType": 1,
+  "price": 3.5,
+  "checkMobileStatus": 0,
+  "maxClickNumber": 28,
+  "effectiveType": 2,
+  "startTime": "",
+  "endTime": "",
+  "dateRange": [
+    "2025-05-01",
+    "2025-06-05"
+  ],
+  "showPageDTOList": [
+    {
+      "showPage": 1,
+      "sort": 19,
+      "dayUvLimit": 0
+    },
+    {
+      "showPage": 2,
+      "sort": 19,
+      "dayUvLimit": 0
+    },
+    {
+      "showPage": 5,
+      "sort": 19,
+      "dayUvLimit": 0
+    },
+    {
+      "showPage": 12,
+      "sort": 19,
+      "dayUvLimit": 0
+    },
+    {
+      "showPage": 17,
+      "sort": 19,
+      "dayUvLimit": 0
+    }
+  ],
+  "recommendStatus": 2,
+  "limitCityIdList": null,
+  "limitChannelList": [
+    2111535566783489
+  ],
+  "effectiveStartTime": "2025-05-01",
+  "effectiveEndTime": "2025-06-05",
+  "threshold": 0
+}

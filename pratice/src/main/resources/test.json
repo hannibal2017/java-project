@@ -1,0 +1,34 @@
+{
+  "code": 200,
+  "data": {
+    "loanName": "中杭易贷",
+    "hitPhoneList": null,
+    "orderNo": "ra_1928005477539684352",
+    "authorizationAgreement": [
+      {
+        "name": "用户注册协议",
+        "url": "https://file.uekery.cn/register/index.html#/"
+      },
+      {
+        "name": "用户隐私政策",
+        "url": "https://file.uekery.cn/20230717/4f84a24c6f4c429885fdb96daa5468cd.html"
+      },
+      {
+        "name": "个人信息授权书",
+        "url": "https://file.uekery.cn/agreement/index.html#/"
+      },
+      {
+        "name": "第三方产品风险知情书",
+        "url": "https://file.uekery.cn/20230510/6c37f0371a084748868d3feb1d8e00e8.html"
+      }
+    ],
+    "price": 80.0,
+    "logo": "https://file.uekery.cn/20231102/8ab74e04d3bd4887abee821c1cdea584.png",
+    "check": true,
+    "sort": 0,
+    "originPrice": 100.0,
+    "productName": "中杭易贷111",
+    "serialNo": "ra_1928005477539684352"
+  },
+  "msg": "匹配成功"
+}
