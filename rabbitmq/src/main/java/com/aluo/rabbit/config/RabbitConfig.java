@@ -42,4 +42,9 @@ public class RabbitConfig {
         return new Queue("testJSONQueue");
     }
 
+    @Bean
+    public Queue workQueue() {
+        return new Queue("work_queue", true);
+    }
+
 }
