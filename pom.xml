@@ -29,6 +29,7 @@
     <google.guava.version>18.0</google.guava.version>
     <junit.version>4.12</junit.version>
     <netty.version>4.1.18.Final</netty.version>
+    <hutool.version>5.7.14</hutool.version>
   </properties>
 
   <modules>
@@ -96,6 +97,13 @@
         <artifactId>fastjson</artifactId>
         <version>${fastjson.version}</version>
       </dependency>
+      <dependency>
+
+        <groupId>cn.hutool</groupId>
+        <artifactId>hutool-all</artifactId>
+        <version>${hutool.version}</version>
+      </dependency>
+
 
     </dependencies>
 
